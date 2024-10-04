@@ -3,6 +3,7 @@ from api_secrets import API_KEY_OPENAI
 
 openai.api_key = API_KEY_OPENAI
 
+
 def ask_computer(prompt):
     return "This is my answer"
 
